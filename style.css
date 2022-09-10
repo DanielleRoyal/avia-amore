@@ -71,3 +71,26 @@ main > * {
 /* media queries */
 
 /* YOUR CODE HERE */
+@media screen and (max-width: 768px){
+  header{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 1rem;
+    
+
+  }
+  article{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+  }
+  .airplane-card{
+    width: 100%
+   
+  }
+}
